@@ -1,3 +1,13 @@
 html, body, #root {
   height: 100%;
 }
+
+@font-face {
+  font-family: "e-Ukraine";
+  src: url("./fonts/e-Ukraine/e-Ukraine-Regular.woff2") format("woff2"),
+       url("./fonts/e-Ukraine/e-Ukraine-Regular.woff") format("woff");
+}
+
+* {
+  font-family: "e-Ukraine";
+}
